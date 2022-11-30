@@ -13,6 +13,8 @@
 		C59436502935EA6000F18C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C594364E2935EA6000F18C42 /* Main.storyboard */; };
 		C59436522935EA6200F18C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59436512935EA6200F18C42 /* Assets.xcassets */; };
 		C59436552935EA6200F18C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59436532935EA6200F18C42 /* LaunchScreen.storyboard */; };
+		C594365E2936024800F18C42 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594365C2936024800F18C42 /* CustomViewCell.swift */; };
+		C594365F2936024800F18C42 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C594365D2936024800F18C42 /* CustomViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C59436512935EA6200F18C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59436542935EA6200F18C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59436562935EA6200F18C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C594365C2936024800F18C42 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		C594365D2936024800F18C42 /* CustomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C59436512935EA6200F18C42 /* Assets.xcassets */,
 				C59436532935EA6200F18C42 /* LaunchScreen.storyboard */,
 				C59436562935EA6200F18C42 /* Info.plist */,
+				C594365C2936024800F18C42 /* CustomViewCell.swift */,
+				C594365D2936024800F18C42 /* CustomViewCell.xib */,
 			);
 			path = "Food Delivery App";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59436552935EA6200F18C42 /* LaunchScreen.storyboard in Resources */,
+				C594365F2936024800F18C42 /* CustomViewCell.xib in Resources */,
 				C59436522935EA6200F18C42 /* Assets.xcassets in Resources */,
 				C59436502935EA6000F18C42 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C594364D2935EA6000F18C42 /* ViewController.swift in Sources */,
+				C594365E2936024800F18C42 /* CustomViewCell.swift in Sources */,
 				C59436492935EA6000F18C42 /* AppDelegate.swift in Sources */,
 				C594364B2935EA6000F18C42 /* SceneDelegate.swift in Sources */,
 			);
