@@ -19,10 +19,18 @@ class CustomViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        cardView.layer.cornerRadius = cardView.frame.size.height / 2
-        bagButton.layer.cornerRadius = bagButton.frame.size.height / 2
+        
+        
+        let blur = UIBlurEffect(style: .light)
+        let blurView = UIVisualEffectView(effect: blur)
+        blurView.frame = self.bounds
+        blurView.layer.masksToBounds = true
+        blurView.layer.cornerRadius = 20
+        blurView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        cardView.insertSubview(blurView, at: 0)
+        
     }
+    
     
 
 }
